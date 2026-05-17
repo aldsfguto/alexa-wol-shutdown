@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "meu computador",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "LigarComputadorIntent",
+          "slots": [],
+          "samples": [
+            "ligar computador",
+            "ligar o computador",
+            "ligar meu computador",
+            "iniciar computador",
+            "acordar computador",
+            "abrir computador"
+          ]
+        },
+        {
+          "name": "DesligarComputadorIntent",
+          "slots": [],
+          "samples": [
+            "desligar computador",
+            "desligar o computador",
+            "desligar meu computador",
+            "apagar computador",
+            "encerrar computador"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
