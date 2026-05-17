@@ -37,6 +37,54 @@
             "apagar computador",
             "encerrar computador"
           ]
+        },
+        {
+          "name": "ReiniciarComputadorIntent",
+          "slots": [],
+          "samples": [
+            "reiniciar computador",
+            "reiniciar o computador",
+            "resetar computador"
+          ]
+        },
+        {
+          "name": "BloquearTelaIntent",
+          "slots": [],
+          "samples": [
+            "bloquear tela",
+            "bloquear o computador",
+            "travar computador",
+            "travar a tela"
+          ]
+        },
+        {
+          "name": "AbrirSteamIntent",
+          "slots": [],
+          "samples": [
+            "abrir steam",
+            "abrir a steam",
+            "iniciar steam"
+          ]
+        },
+        {
+          "name": "AbrirChromeIntent",
+          "slots": [],
+          "samples": [
+            "abrir chrome",
+            "abrir o chrome",
+            "abrir navegador",
+            "abrir o navegador"
+          ]
+        },
+        {
+          "name": "AbrirJogoIntent",
+          "slots": [],
+          "samples": [
+            "abrir jogo",
+            "abrir o jogo",
+            "iniciar jogo",
+            "jogar"
+          ]
         }
       ],
       "types": []
