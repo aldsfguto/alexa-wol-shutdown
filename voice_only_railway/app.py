@@ -67,6 +67,22 @@ def home():
     return jsonify({"status": "online", "service": "voice_only_railway"})
 
 
+@app.get("/debug-config")
+def debug_config():
+    return jsonify(
+        {
+            "control_token_is_default": CONTROL_TOKEN == "troque-este-token",
+            "has_control_token": bool(CONTROL_TOKEN),
+            "target_mac": TARGET_MAC,
+            "wol_ip_address": WOL_IP_ADDRESS,
+            "wol_ip_is_default": WOL_IP_ADDRESS == "seu-ip-publico-ou-ddns",
+            "wol_port": WOL_PORT,
+            "shutdown_url": SHUTDOWN_URL,
+            "shutdown_token_is_default": SHUTDOWN_TOKEN == "troque-este-token",
+        }
+    )
+
+
 @app.post("/alexa")
 def alexa():
     payload = request.get_json(silent=True) or {}
