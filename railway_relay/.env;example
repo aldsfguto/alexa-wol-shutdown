@@ -1,0 +1,4 @@
+CONTROL_TOKEN=troque-este-token
+HOME_SERVER_URL=https://seu-servidor-local-exposto.example.com
+HOME_SERVER_TOKEN=troque-este-token
+PORT=8080
